@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Smart Library System
 
 ## Assignment Information
