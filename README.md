@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Library System
 
 ## Assignment Information
@@ -325,3 +326,6 @@ ISC
 ---
 
 **Note:** Make sure both backend and frontend servers are running simultaneously for the application to work properly. The backend must be started first to establish the MongoDB connection.
+=======
+# Smart-Library-System
+>>>>>>> 639871c8ece0343644ebf498b7c0977f6a7e7662
