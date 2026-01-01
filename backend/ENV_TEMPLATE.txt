@@ -1,0 +1,22 @@
+# MongoDB Atlas Connection String
+# Steps to get your MongoDB Atlas connection string:
+# 1. Go to https://www.mongodb.com/cloud/atlas
+# 2. Sign up or log in to your account
+# 3. Create a new cluster (free tier is available)
+# 4. Click "Connect" on your cluster
+# 5. Choose "Connect your application"
+# 6. Copy the connection string
+# 7. Replace <password> with your database user password
+# 8. Replace <dbname> with your database name (e.g., librarydb)
+# Example: mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/librarydb?retryWrites=true&w=majority
+MONGODB_URI=your_mongodb_atlas_connection_string_here
+
+# Server Port
+PORT=5000
+
+# Frontend URL (for CORS) - Optional, leave empty to allow all localhost ports in development
+# You can specify multiple URLs separated by commas: http://localhost:5173,http://localhost:5174
+FRONTEND_URL=
+
+# Node Environment (development or production)
+NODE_ENV=development
